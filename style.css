@@ -1,0 +1,39 @@
+.search-form{
+	padding: 20px;
+}
+
+.domain{
+	padding: 20px;
+	border-style: groove;
+}
+
+.domain-img{
+	height: 60px;
+	max-width: 80%;
+}
+
+
+.lifeGoalHeader{
+	text-align: center;
+	height: 150px;
+}
+
+.search-input{
+
+	background: url('img/search.svg') no-repeat scroll 0px 0px;
+	background-color: white;
+	padding-left: 30px;	
+	//padding: 20px;
+}
+
+.btnRun{
+	height: 50px ;
+}
+
+.sm-icon{
+	height: 28px ;
+}
+.lifeGoal-separator{
+	border-top: 3px solid #8c8b8b;
+
+}

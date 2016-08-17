@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="160" height="160">
+    <rect style="fill:#000000" width="160" height="160"/>
+    <g style="fill:#ffffff">
+        <circle cx="29" cy="78.5" r="18"/>
+        <rect width="41.119751" height="9.7919359" x="-650.49463" y="738.17584" transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,-892.36221)"/>
+        <rect width="41.119751" height="9.7919359" x="-763.63171" y="-634.83069" transform="matrix(-0.70710678,-0.70710678,0.70710678,-0.70710678,0,-892.36221)"/>
+        <rect width="36" height="36" x="113" y="60.5"/>
+    </g>
+</svg>
