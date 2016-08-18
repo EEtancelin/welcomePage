@@ -7,10 +7,10 @@ function runGglSch() { // Run a standart google search.
 
 }
 
-function runWwwSchool() { // Run google search engine en w3 website.
+function searchOnMdn() { // Run google search engine en w3 website.
 	var search = document.getElementById("SchInput").value
 	var query= search.replace (" ", "+")
-	var URL= "https://www.google.fr/search?q="+query+"&as_sitesearch=www.w3schools.com"
+	var URL= "https://www.google.fr/search?q="+query+"&as_sitesearch=https://developer.mozilla.org/en"
 	document.location.href=URL;
 
 }
