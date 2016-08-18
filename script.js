@@ -7,13 +7,13 @@ function runGglSch() { // Run a standart google search.
 
 }
 
-function searchOnMdn() { // Run google search engine en w3 website.
-	var search = document.getElementById("SchInput").value
-	var query= search.replace (" ", "+")
-	var URL= "https://www.google.fr/search?q="+query+"&as_sitesearch=https://developer.mozilla.org/en"
+function searchOn(domain)  {
+        var search = document.getElementById("SchInput").value
+        var query= search.replace (" ", "+")
+        var URL= "https://www.google.fr/search?q="+query+"&as_sitesearch="+domain
 	document.location.href=URL;
-
 }
+
 
 function runSvgSearch() { // Run google search engine en w3 website.
 	var search = document.getElementById("SchInput").value
@@ -22,31 +22,6 @@ function runSvgSearch() { // Run google search engine en w3 website.
 	document.location.href=URL;
 
 }
-
-function runRubyDoc() { // Run google search engine on Ruby-doc website.
-	var search = document.getElementById("SchInput").value
-	var query= search.replace (" ", "+")
-	var URL= "https://www.google.fr/search?q="+query+"&as_sitesearch=http://ruby-doc.org/"
-	document.location.href=URL;
-
-}
-
-function runBootstrapDocSearch() { // Run google search engine on Ruby-doc website.
-	var search = document.getElementById("SchInput").value
-	var query= search.replace (" ", "+")
-	var URL= "https://www.google.fr/search?q="+query+"&as_sitesearch=http://ruby-doc.org/"
-	document.location.href=URL;
-
-}
-
-function runthenounprojectSearch() { // Run google search engine on Ruby-doc website.
-	var search = document.getElementById("SchInput").value
-	var query= search.replace (" ", "+")
-	var URL= "https://www.google.fr/search?q="+query+"&as_sitesearch=https://thenounproject.com/"
-	document.location.href=URL;
-
-}
-
 
 function mapoule() { // debug function 
 	alert ("Salut ma poule ! ")
